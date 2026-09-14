@@ -1,5 +1,7 @@
 # TUS-PAD Video Examples
 
+https://tanehashi0512.github.io/TUS-PAD/
+
 Static webpage showing representative videos from the three newly collected
 TUS-PAD scenarios.
 
