@@ -13,8 +13,8 @@
       <h1>TUS-PAD</h1>
       <p class="subtitle">Video Examples for Operational-State Anomaly Detection</p>
       <p class="intro">
-        This page provides representative normal and anomalous video examples
-        for the seven operational-state scenarios evaluated in our paper.
+        This page provides representative video examples from the three newly
+        collected scenarios in TUS-PAD: Metronome, Ski, and Gym.
       </p>
     </div>
   </header>
@@ -27,60 +27,63 @@
 
     <section class="scenario">
       <div class="scenario-head">
-        <div><span class="num">01</span><h2>Clock</h2></div>
-        <p>Constant angular velocity</p>
+        <div><span class="num">01</span><h2>Metronome</h2></div>
+        <p>Periodic oscillatory motion</p>
       </div>
-      <div class="videos">
-        <article class="card"><h3><span class="dot normal"></span>Normal</h3><video controls preload="metadata"><source src="videos/clock_normal.mp4" type="video/mp4"></video><p>Normal operating state.</p></article>
-        <article class="card"><h3><span class="dot abnormal"></span>Abnormal</h3><video controls preload="metadata"><source src="videos/clock_abnormal.mp4" type="video/mp4"></video><p>Example of an abnormal operating state.</p></article>
-      </div>
-    </section>
-
-    <section class="scenario">
-      <div class="scenario-head"><div><span class="num">02</span><h2>Pendulum</h2></div><p>Damped pendulum motion</p></div>
-      <div class="videos">
-        <article class="card"><h3><span class="dot normal"></span>Normal</h3><video controls preload="metadata"><source src="videos/pendulum_normal.mp4" type="video/mp4"></video><p>Normal operating state.</p></article>
-        <article class="card"><h3><span class="dot abnormal"></span>Abnormal</h3><video controls preload="metadata"><source src="videos/pendulum_abnormal.mp4" type="video/mp4"></video><p>Temporal dynamics are altered during anomalous intervals.</p></article>
-      </div>
-    </section>
-
-    <section class="scenario">
-      <div class="scenario-head"><div><span class="num">03</span><h2>Sliding Block</h2></div><p>Motion on an inclined plane</p></div>
-      <div class="videos">
-        <article class="card"><h3><span class="dot normal"></span>Normal</h3><video controls preload="metadata"><source src="videos/sliding_block_normal.mp4" type="video/mp4"></video><p>Normal operating state.</p></article>
-        <article class="card"><h3><span class="dot abnormal"></span>Abnormal</h3><video controls preload="metadata"><source src="videos/sliding_block_abnormal.mp4" type="video/mp4"></video><p>Example of altered motion dynamics.</p></article>
+      <div class="videos two">
+        <article class="card">
+          <h3><span class="dot normal"></span>Normal</h3>
+          <video controls preload="metadata"><source src="videos/metronome_norm1.mp4" type="video/mp4"></video>
+          <p>Representative normal operating state.</p>
+        </article>
+        <article class="card">
+          <h3><span class="dot abnormal"></span>Abnormal</h3>
+          <video controls preload="metadata"><source src="videos/metronome_ano1.mp4" type="video/mp4"></video>
+          <p>Representative abnormal operating state.</p>
+        </article>
       </div>
     </section>
 
     <section class="scenario">
-      <div class="scenario-head"><div><span class="num">04</span><h2>Rotation</h2></div><p>Rotational dynamics</p></div>
-      <div class="videos">
-        <article class="card"><h3><span class="dot normal"></span>Normal</h3><video controls preload="metadata"><source src="videos/rotation_normal.mp4" type="video/mp4"></video><p>Normal operating state.</p></article>
-        <article class="card"><h3><span class="dot abnormal"></span>Abnormal</h3><video controls preload="metadata"><source src="videos/rotation_abnormal.mp4" type="video/mp4"></video><p>Example of altered rotational dynamics.</p></article>
+      <div class="scenario-head">
+        <div><span class="num">02</span><h2>Ski</h2></div>
+        <p>Sliding motion</p>
+      </div>
+      <div class="videos two">
+        <article class="card">
+          <h3><span class="dot normal"></span>Normal</h3>
+          <video controls preload="metadata"><source src="videos/ski_norm1.mp4" type="video/mp4"></video>
+          <p>Representative normal operating state.</p>
+        </article>
+        <article class="card">
+          <h3><span class="dot abnormal"></span>Abnormal</h3>
+          <video controls preload="metadata"><source src="videos/ski_ano1.mp4" type="video/mp4"></video>
+          <p>Representative abnormal operating state.</p>
+        </article>
       </div>
     </section>
 
     <section class="scenario">
-      <div class="scenario-head"><div><span class="num">05</span><h2>Metronome</h2></div><p>Periodic oscillatory motion</p></div>
-      <div class="videos">
-        <article class="card"><h3><span class="dot normal"></span>Normal</h3><video controls preload="metadata"><source src="videos/metronome_normal.mp4" type="video/mp4"></video><p>Normal periodic motion.</p></article>
-        <article class="card"><h3><span class="dot abnormal"></span>Abnormal</h3><video controls preload="metadata"><source src="videos/metronome_abnormal.mp4" type="video/mp4"></video><p>Example of an abnormal operating state.</p></article>
+      <div class="scenario-head">
+        <div><span class="num">03</span><h2>Gym</h2></div>
+        <p>Cart–pendulum dynamics</p>
       </div>
-    </section>
-
-    <section class="scenario">
-      <div class="scenario-head"><div><span class="num">06</span><h2>Ski</h2></div><p>Sliding motion</p></div>
-      <div class="videos">
-        <article class="card"><h3><span class="dot normal"></span>Normal</h3><video controls preload="metadata"><source src="videos/ski_normal.mp4" type="video/mp4"></video><p>Normal operating state.</p></article>
-        <article class="card"><h3><span class="dot abnormal"></span>Abnormal</h3><video controls preload="metadata"><source src="videos/ski_abnormal.mp4" type="video/mp4"></video><p>Example of an abnormal operating state.</p></article>
-      </div>
-    </section>
-
-    <section class="scenario">
-      <div class="scenario-head"><div><span class="num">07</span><h2>Gym</h2></div><p>Cart–pendulum dynamics</p></div>
-      <div class="videos">
-        <article class="card"><h3><span class="dot normal"></span>Normal</h3><video controls preload="metadata"><source src="videos/gym_normal.mp4" type="video/mp4"></video><p>Normal operating state.</p></article>
-        <article class="card"><h3><span class="dot abnormal"></span>Abnormal</h3><video controls preload="metadata"><source src="videos/gym_abnormal.mp4" type="video/mp4"></video><p>Example of an abnormal operating state.</p></article>
+      <div class="videos three">
+        <article class="card">
+          <h3><span class="dot normal"></span>Normal</h3>
+          <video controls preload="metadata"><source src="videos/gym_norm1.mp4" type="video/mp4"></video>
+          <p>Representative normal operating state.</p>
+        </article>
+        <article class="card">
+          <h3><span class="dot abnormal"></span>Abnormal 1</h3>
+          <video controls preload="metadata"><source src="videos/gym_ano1.mp4" type="video/mp4"></video>
+          <p>Representative abnormal operating state.</p>
+        </article>
+        <article class="card">
+          <h3><span class="dot abnormal"></span>Abnormal 2</h3>
+          <video controls preload="metadata"><source src="videos/gym_ano2.mp4" type="video/mp4"></video>
+          <p>Another representative abnormal operating state.</p>
+        </article>
       </div>
     </section>
 
